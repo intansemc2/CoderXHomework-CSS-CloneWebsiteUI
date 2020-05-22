@@ -1,0 +1,18 @@
+.session-gioi-thieu-website {
+	font-family: roboto light, sans-serif !important;
+	font-size: large;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 80vh;
+}
+
+.session-gioi-thieu-website label {
+	font-size: 48px;
+
+	margin: 0px 0px 30px 0px;
+	padding: 0;
+}

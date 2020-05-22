@@ -1,0 +1,21 @@
+.button-start-learn {
+	background-color: #4a90e2; 
+	color: #fff;
+	font-size: 12.8px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif !important;
+
+	border: 0px;
+	border-radius: 5px;
+
+	padding: 10px 30px;
+
+	transition: transform 0.25s;
+}
+
+.button-start-learn:hover {
+	background-color: #609de6;
+	transform: translateY(-2px);
+}
+
