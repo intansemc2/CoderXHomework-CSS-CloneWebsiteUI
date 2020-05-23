@@ -1,0 +1,41 @@
+.quang-cao-khoa-hoc {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quang-cao-khoa-hoc .noidung-quangcao {
+    width: 80%;
+    border-top: 1px solid #ddd;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quang-cao-khoa-hoc .noidung-quangcao .noi-dung-chu {
+    margin: 20px;
+}
+
+.quang-cao-khoa-hoc .text-free {
+    background-color: #28517f;
+    border: 0px;
+    border-radius: 16px;
+    color: #fff;
+    padding: 5px;
+    width: 64px;
+    display: inline-block;
+    text-align: center;
+    font-family: sans, sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.quang-cao-khoa-hoc a {
+    color: #2a70d8;
+    text-decoration: underline;
+}
+
+.quang-cao-khoa-hoc b {
+    color: #a7bccc;
+}
