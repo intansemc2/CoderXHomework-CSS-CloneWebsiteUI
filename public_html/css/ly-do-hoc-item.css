@@ -1,0 +1,28 @@
+.ly-do-hoc-item {
+    width: 25%;
+    padding: 0px 10px;
+}
+
+.ly-do-hoc-item img {
+    max-width: 100%;
+}
+
+.ly-do-hoc-item .title {
+    text-align: center;
+    font-family: roboto light, sans, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ly-do-hoc-item .content {
+    text-align: center;
+    font-family: roboto light, sans, sans-serif;
+    font-size: 12px;
+}
+
+.ly-do-hoc-item a {
+    text-decoration: underline;
+    color: #2a70d8;
+    font-family: sans, sans-serif;
+    font-weight: bold;
+}
