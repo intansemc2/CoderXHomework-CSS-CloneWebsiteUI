@@ -1,0 +1,64 @@
+.nhung-thu-hoc-duoc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 170px;
+}
+
+.nhung-thu-hoc-duoc .number-cover {
+    height: 100%;
+    position: relative;
+    width: 100px;
+}
+
+.nhung-thu-hoc-duoc .number-cover .number {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #2a70d8;
+    color: #2a70d8;
+    font-family: sans, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nhung-thu-hoc-duoc .number-cover hr {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: -100;
+    height: 100%;
+
+    color: transparent;
+
+    border-width: 1px;
+    border-right-style: dashed;
+    border-right-color: #ccc;
+}
+
+.nhung-thu-hoc-duoc .main-content {
+    width: 80%;
+    margin-bottom: 48px;
+}
+
+.nhung-thu-hoc-duoc .main-content .title {
+    font-family: roboto light, sans, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.nhung-thu-hoc-duoc .main-content .content {
+    font-family:  roboto light, sans, sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
