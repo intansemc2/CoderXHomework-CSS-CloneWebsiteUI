@@ -1,0 +1,25 @@
+.danh-sach-nhung-thu-hoc-duoc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.danh-sach-nhung-thu-hoc-duoc .danh-sach {
+    height: 100%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.danh-sach-nhung-thu-hoc-duoc .hinh-minh-hoa {
+    height: 100%;
+    width: 50%;
+}
+
+.danh-sach-nhung-thu-hoc-duoc .hinh-minh-hoa img {
+    box-shadow: 0 23px 40px rgba(0,0,0,0.2);
+    max-width: 100%;
+}
