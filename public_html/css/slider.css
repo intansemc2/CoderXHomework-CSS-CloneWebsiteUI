@@ -11,13 +11,21 @@
     align-items: center;
     position: absolute;
     bottom: 0px;
-    top: 0px;
+    top: 0px;    
+}
+
+.slider .left-arrow img, .slider .right-arrow img {
+    opacity: 0.5;
+    transition: opacity 0.25s;
+}
+
+.slider .left-arrow img:hover, .slider .right-arrow img:hover{
+    opacity: 1.0;
 }
 
 .slider .left-arrow img, .slider .right-arrow img{
     max-width: 100%;
 }
-
 
 .slider .left-arrow {    
     left: 0px;
