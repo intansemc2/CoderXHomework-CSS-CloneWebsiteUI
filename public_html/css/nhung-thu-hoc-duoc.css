@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    height: 170px;
+    height: 180px;
 }
 
 .nhung-thu-hoc-duoc .number-cover {
@@ -59,6 +59,6 @@
 
 .nhung-thu-hoc-duoc .main-content .content {
     font-family:  roboto light, sans, sans-serif;
-    font-size: 14px;
+    font-size: 17px;
     color: #666666;
 }

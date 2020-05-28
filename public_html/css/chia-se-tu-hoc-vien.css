@@ -1,0 +1,45 @@
+.chia-se-tu-hoc-vien {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1000px;
+}
+
+.chia-se-tu-hoc-vien h2 {
+    font-family: roboto, sans, sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    color: #252525;
+}
+
+.chia-se-tu-hoc-vien .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chia-se-tu-hoc-vien .testimonial blockquote {
+    margin-bottom: 17px;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+}
+
+.chia-se-tu-hoc-vien .testimonial h5 {
+    font-family: roboto, sans, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #252525;
+    margin: 0px;
+    padding: 0px;
+}
+
+.chia-se-tu-hoc-vien .testimonial span {
+    font-family: roboto, sans, sans-serif;
+    font-size: 15px;
+    color: #666666;
+}
