@@ -1,0 +1,44 @@
+.footer {
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > * {
+    margin: 7px 0px;
+}
+
+.footer .social-media {
+    height: 24px;
+}
+
+.footer .social-media > * {
+    margin: 10px;
+}
+
+.footer .social-media img {
+    max-height: 100%;
+}
+
+.footer .make-width, .footer .trade-mark {
+    font-family: sans-serif;
+    color: #929292;
+}
+
+.footer .make-width {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .make-width .icon-large {
+    font-size: 30px;
+    margin: 0px 5px;
+}
+
+.footer .trade-mark {
+    font-size: 12px;
+}
